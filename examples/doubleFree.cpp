@@ -1,7 +1,8 @@
 int main() {
-    int *p = new int(10);
+	int *p = new int(10);
+	
+	delete p;
 
-    delete p;
 
-    return 0;
+	return 0;
 }
